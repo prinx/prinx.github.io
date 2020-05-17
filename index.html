@@ -390,8 +390,8 @@
 						console.log('SUCCESS!', response.status, response.text)
 						contactForm.reset()
 
-						emailResponse.text(
-							"\u{1F603} Email received successfully. You will receive my answer very soon."
+						emailResponse.html(
+							"Thank you! \u{1F603}<br> Email received successfully.<br>You will receive an answer very soon."
 						)
 						emailResponse.addClass("alert-success")
 						emailResponse.show(250)
