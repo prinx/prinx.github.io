@@ -8410,7 +8410,9 @@ h1, h2, h3, h4, h5,
           color: #0075f6; }
         .owl-carousel.home-slider .slider-item .slider-text .text {
           position: relative;
-          z-index: 1; }
+          z-index: 1; 
+          top: -135px;
+        }
         .owl-carousel.home-slider .slider-item .slider-text h1 {
           font-size: 60px;
           color: #000000;
