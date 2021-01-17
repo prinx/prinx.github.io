@@ -13,13 +13,6 @@
             width: 100%;
             top: 0;
         }
-        .main {
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            padding: 10%;
-        }
     </style>
 </head>
 <body>
@@ -44,12 +37,15 @@
             </ul>
         </div>
     </nav>
-    <section class="main">
-        <h1 class="zoomIn">Whatsapp Status Saver</h1>
-        <p>
-            Download and share your friends', families' and contacts' statuses with WhatsApp Status Saver.
+    <section class="main d-flex flex-column justify-content-center align-items-center p-5">
+        <p class="text-center">
+            <img src="logo.png" alt="Logo">
         </p>
-        <p> <a href="privacy.html">Privacy Policy</a> </p>
+        <h1 class="animated zoomIn text-center">Whatsapp Status Saver</h1>
+        <p class="text-center">
+            Download and share your friends', families' and contacts' statuses.
+        </p>
+        <p class="text-center"> <a href="privacy.html">Privacy Policy</a> </p>
     </section>
     <script src="../../js/jquery.min.js"></script>
     <script src="../../js/popper.min.js"></script>
